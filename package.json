@@ -1,6 +1,6 @@
 {
   "name": "ducky-search",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "lucky duck-a-gogo search url generator",
   "main": "index.js",
   "scripts": {
