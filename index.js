@@ -1,0 +1,1 @@
+var ducky = module.exports = function ducky(query, site) { if (site) { site = "+" + encodeURIComponent("site:" + site); } else { site = ""; }; var url = ("https://duckduckgo.com/?q=!ducky+%q" + site).replace("%q", encodeURIComponent( query.replace(" ", "+") ) ); return url; }
